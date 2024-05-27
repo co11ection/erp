@@ -1,0 +1,1 @@
+# Используйте официальный образ PythonFROM python:3.8ENV BOT_TOKEN=6531917446:AAEfWw40z8bvBBu_HCwon__M8LRAqbo4-7UENV API_BASE_URL=http://localhost:8000RUN mkdir /botWORKDIR /botCOPY register_bot.py /bot/RUN pip install telebot requests python-decoupleCMD ["python", "register_bot.py"]
